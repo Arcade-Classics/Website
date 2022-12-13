@@ -31,7 +31,7 @@
         <h1 class="text-center text-4xl">9 Classic Arcade Games</h1>
       </div>
       <div class="mt-12 flex justify-center">
-        <a class="m-2 text-black download-button" tabindex="0" href="https://chrome.google.com/webstore/detail/arcade-classics/gokcmhknbfbkchaljcbjloaebnoblcnd"> Download </a>
+        <a class="m-2 text-black download-button" tabindex="0" href="https://chrome.google.com/webstore/detail/arcade-classics/gokcmhknbfbkchaljcbjloaebnoblcnd">Download</a>
       </div>
     </div>
     <a href="/"><img src="icon.png" alt="Icon" class="icon" /></a>
@@ -40,4 +40,10 @@
     <a class="privacy hvr-float" href="/privacy">Privacy Policy</a>
     <a class="contact hvr-float" href="mailto:thearcadeclassics@gmail.com?subject=Arcade Classics Support Request" rel="noreferrer" target="_blank">Contact Us</a>
   </body>
+  <script>
+    if (navigator.userAgent.toLowerCase().indexOf("firefox") > -1) {
+      document.querySelector(".download-button").href = "https://addons.mozilla.org/en-US/firefox/addon/arcade-classics/";
+      document.querySelector(".download-button").innerText = "Download for Firefox";
+    }
+  </script>
 </html>

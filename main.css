@@ -1,7 +1,13 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:300&display=swap);
-/*! tailwindcss v2.2.17 | MIT License | https://tailwindcss.com */
 
-/*! modern-normalize v1.1.0 | MIT License | https://github.com/sindresorhus/modern-normalize */
+.download-button {
+  padding: 0.5em 1em;
+  border-radius: 3px;
+  background: #bb86fc;
+  color: #fff;
+  display: inline-block;
+  text-decoration: none;
+}
 html {
   -moz-tab-size: 4;
   tab-size: 4;

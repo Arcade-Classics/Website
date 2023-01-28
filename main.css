@@ -396,6 +396,7 @@ body {
   cursor: pointer;
   position: fixed;
 }
+.github,
 .changelog,
 .contact,
 .credits,
@@ -404,6 +405,9 @@ body {
   bottom: 10px;
   text-decoration: none;
   position: fixed;
+}
+.github {
+  right: 347px;
 }
 .changelog {
   right: 262px;
